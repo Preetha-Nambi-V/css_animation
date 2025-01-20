@@ -371,3 +371,69 @@ div.box-6 {
                    2px 2px 2px #ffffff inset;
     }
 }
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .left-section {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .right-section {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .row1, .row2, .row3, .row4 {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .image-container img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .col1 {
+        height: auto;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .shake {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .left-section h1 {
+        font-size: 20px;
+    }
+
+    .right-section {
+        gap: 5px;
+    }
+
+    .image-container img {
+        height: 150px;
+        width: 250px;
+    }
+
+    .up_arrow {
+        width: 30px;
+        height: 30px;
+    }
+}
